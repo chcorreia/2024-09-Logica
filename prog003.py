@@ -12,6 +12,7 @@ Robot(1,1)
 buraco = chuta_numero(1,8)
 for i in range(1,9):
     if i != buraco: Parede(i,2)
+dizer("Passe pelo buraco no muro e desça até o fim.")
 # ----------- COMECE SEU PROGRAMA AQUI -------------------------------
 
 

@@ -14,6 +14,7 @@ buraco = chuta_numero(1,8)
 linha = chuta_numero(2,7)
 for i in range(1,9):
     if i != buraco: Parede(i,linha)
+dizer("Passe pelo buraco no muro e desça até o fim.")
 # ----------- COMECE SEU PROGRAMA AQUI -------------------------------
 
 

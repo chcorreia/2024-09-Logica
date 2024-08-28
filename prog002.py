@@ -10,6 +10,7 @@ from robozinho import *
 Mundo(8,8)
 Robot(4,1)
 Parede(4, chuta_numero(2,7))
+dizer("Desça até o fim sem bater na parede.")
 # ----------- COMECE SEU PROGRAMA AQUI -------------------------------
 
 
