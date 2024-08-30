@@ -292,7 +292,7 @@ class Mundo():
     def mostra_msg(self, x, y, mensagem):
         # prepara a mensagem
         font_name = os.path.join(SW_DATA_DIR, DEFAULT_FONT)
-        font = pygame.font.Font(font_name, 12)
+        font = pygame.font.Font(font_name, 14)
         #TODO: fonte proporcional
         text = font.render(mensagem, True, (204, 0, 0), (255, 255, 255))
 
