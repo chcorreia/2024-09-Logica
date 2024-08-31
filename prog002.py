@@ -12,5 +12,9 @@ Robot(4,1)
 Parede(4, chuta_numero(2,7))
 dizer("Desça até o fim sem bater na parede.")
 # ----------- COMECE SEU PROGRAMA AQUI -------------------------------
+while not vazio(abaixo):
+    andar(abaixo)
 
-
+andar(direita)
+while not fora(abaixo):
+    andar(abaixo)
